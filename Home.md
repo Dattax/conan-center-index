@@ -7,14 +7,14 @@ The first step in adding packages to ConanCenter is requesting access to the Ear
 With EAP, contribution of packages are now done via pull requests to the recipe found in the Github repository in https://github.com/conan-io/conan-center-index. 
  
 The specific steps to add new packages are:
-* Fork the conan-center-index git repository, and then clone it.
+* Fork the [conan-center-index](https://github.com/conan-io/conan-center-index) git repository, and then clone it.
 * Create a new folder with the Conan package recipe (conanfile.py)
 * Push to GitHub, and submit a pull request.
 * Our automated build service will build 100+ different configurations, and provide messages that indicate if there were any issues found during the pull request on GitHub.
  
 When the pull request is reviewed and merged, those packages are published to center.conan.io. 
 
-## Contribute a Recipe
+## More Information about Recipes
 
 The [conan-center-index](https://github.com/conan-io/conan-center-index) (this repository) contains recipes for the [conan-center](https://bintray.com/conan/conan-center) repository.
 
