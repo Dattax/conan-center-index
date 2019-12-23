@@ -1,6 +1,6 @@
 # Adding Packages to ConanCenter
 
-## First Join the Early Access Program
+## Join the Early Access Program
  
 The first step in adding packages to ConanCenter is requesting access to the Early Access Program. To enroll in EAP,  please send an email to info@conan.io with the subject [EAP access] or add a comment on this GitHub issue. The EAP was designed to onboard authors to the new process.
  
@@ -14,6 +14,8 @@ The specific steps to add new packages are:
  
 When the pull request is reviewed and merged, those packages are published to center.conan.io. 
 
+## More Information:
+
 **IMPORTANT**: The `conan-center-index` is in private Beta stage, your Github username needs to be whitelisted in the system, otherwise the CI system won't build the packages. You can request access to the early access program by commenting on this [issue](https://github.com/conan-io/conan-center-index/issues/4).
 
 The [conan-center-index](https://github.com/conan-io/conan-center-index) (this repository) contains recipes for the [conan-center](https://bintray.com/conan/conan-center) repository.
@@ -24,9 +26,9 @@ To contribute with a Conan recipe into the `conan-center` repository you can sub
 
 The CI system will also report with messages in the PR any error in the process, even linking to the logs to see more details and debug.
 
-When pull requests are merged, the CI generated package binaries will be uploaded to Conan-center. These packages won't contain the `@user/channel` part. You will be able to install them specifying only `library_name/version` as a requirement, omitting the `@user/channel` part. (Conan >= 1.18.2).
+When pull requests are merged, the CI generated package binaries will be uploaded to ConanCenter. These packages won't contain the `@user/channel` part. You will be able to install them specifying only `library_name/version` as a requirement, omitting the `@user/channel` part. (Conan >= 1.21).
 
-Previously existing packages in Conan-center, with the full reference including `@user/channel` will still be available, but the previous process of “inclusion request” for getting them into Conan-center is now deprecated, and new contributions should follow this guide. Those packages will be gradually contributed to this repo to generate new binaries without the `@user/channel`. 
+Previously existing packages in ConanCenter, with the full reference including `@user/channel` will still be available, but the previous process of “inclusion request” for getting them into Conan-center is now deprecated, and new contributions should follow this guide. Those packages will be gradually contributed to this repo to generate new binaries without the `@user/channel`. 
 
 ## How to submit a Pull Request
 
