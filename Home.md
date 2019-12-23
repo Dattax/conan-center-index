@@ -2,7 +2,7 @@
 
 ## Join the Early Access Program
  
-The first step in adding packages to ConanCenter is requesting access to the Early Access Program. To enroll in EAP,  please send an email to info@conan.io with the subject [EAP access] or add a comment on this GitHub issue. The EAP was designed to onboard authors to the new process.
+The first step in adding packages to ConanCenter is requesting access to the Early Access Program. To enroll in EAP,  please send an email to info@conan.io with the subject [EAP access] or add a comment on this GitHub [issue](https://github.com/conan-io/conan-center-index/issues/4). The EAP was designed to onboard authors to the new process.
  
 With EAP, contribution of packages are now done via pull requests to the recipe found in the Github repository in https://github.com/conan-io/conan-center-index. 
  
@@ -14,9 +14,7 @@ The specific steps to add new packages are:
  
 When the pull request is reviewed and merged, those packages are published to center.conan.io. 
 
-## More Information:
-
-**IMPORTANT**: The `conan-center-index` is in private Beta stage, your Github username needs to be whitelisted in the system, otherwise the CI system won't build the packages. You can request access to the early access program by commenting on this [issue](https://github.com/conan-io/conan-center-index/issues/4).
+## Contribute a Recipe
 
 The [conan-center-index](https://github.com/conan-io/conan-center-index) (this repository) contains recipes for the [conan-center](https://bintray.com/conan/conan-center) repository.
 
